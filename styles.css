@@ -23,16 +23,19 @@ body {
     font-style: normal;
     margin: 0;
     color: var(--cream);
+    line-height: 1.6;
 }
 
-#topNav {
+#navBar {
+    position: relative;
     display: flex;
-    background-color: var(--cream);
+    flex-wrap: nowrap;
+    background-color: var(--light-blue);
+    height: 60px;
 }
 
 #logo {
-    height: 3rem;
-    justify-self: start;
+    height: 60px;
 }
 
 #navToggle {
@@ -41,26 +44,21 @@ body {
     list-style: none;
 }
 
-nav {
-    justify-self: end;
-}
-
-#navBar {
+#navLink {
+    position: relative;
     list-style: none;
     display: flex;
-
 }
 
-#navBar a {
-    color: var(--dark-blue)
-}
-
-.navLink {
+#navLink a {
+    color: var(--dark-blue);
+    text-decoration: none;
     padding: 0 0.5em;
 }
 
-.navLink:hover {
-    color: var(--light-red)
+#navLink a:hover {
+    color: var(--light-red);
+    text-decoration: underline;
 }
 
 #contacts {
