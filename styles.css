@@ -87,6 +87,20 @@ body {
     font-style: italic;
 }
 
+h3 {
+    margin: 0.2em;
+}
+
+.subtitle {
+    font-style: italic;
+    background-color: var(--light-blue);
+    margin: 0.2em;
+}
+
+.inform {
+    margin: 0.2em;
+}
+
 #contacts {
     background-color: var(--dark-blue);
     height: 13rem;
