@@ -14,15 +14,15 @@
     --font-semibold: 600;
     --font-extrabold: 800;
     --font-regular: 400;
+    --font-light: 300;
 }
 
 body {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: var(--font-regular);
     font-style: normal;
     margin: 0;
-    color: var(--cream);
+    background-color: var(--cream);
     line-height: 1.6;
 }
 
@@ -61,6 +61,32 @@ body {
     text-decoration: underline;
 }
 
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro img {
+    border-radius: 50%;
+    height: 10rem;
+    width: 9.2rem;
+    transform: rotate(-25deg);
+    margin: 2rem;
+    position: relative;
+}
+
+.naming {
+    font-weight: var(--font-extrabold);
+    font-size: 2em;
+}
+
+.introTitle {
+    font-weight: var(--font-regular);
+    font-size: 1em;
+    font-style: italic;
+}
+
 #contacts {
     background-color: var(--dark-blue);
     height: 13rem;
@@ -70,6 +96,7 @@ body {
 }
 
 .email-address {
+    font-weight: var(--font-regular);
     padding: 15px 0 15px 0;
     display: flex;
     justify-content: center;
