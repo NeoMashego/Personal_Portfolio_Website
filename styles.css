@@ -65,6 +65,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("./images/back.jpeg");
+    background-size: 68em;
 }
 
 #intro img {
@@ -116,6 +118,18 @@ body {
 h2 {
     font-weight: var(--font-extrabold);
     font-size: 2em;
+    padding: 1.3em 0 0.5em 0;
+}
+
+#explain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.desc h3 {
+    margin: 0;
 }
 
 #contacts {
