@@ -152,6 +152,12 @@ h2 {
     margin: 0;
 }
 
+.desc:hover {
+    background-color: var(--blue);
+    box-shadow: 10px 10px var(--dark-blue);
+    border-radius: 8em;
+}
+
 /* Projects Section */
 
 #projects {
@@ -174,6 +180,10 @@ h2 {
 .projectsDisplay img {
     height: 18rem;
     width: 18rem;
+}
+
+.projectsDisplay img:hover {
+    box-shadow: 0.8em 0.8em 0.2em var(--dark-blue), -0.8em -0.8em 0.2em var(--light-red);
 }
 
 /* Contacts Section */
