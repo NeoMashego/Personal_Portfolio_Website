@@ -38,7 +38,7 @@ body {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     nav {
         font-size: 15px;
     }
@@ -65,30 +65,41 @@ body {
 
 #intro {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-image: url("./images/back.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding: 2%;
 }
 
 #intro img {
-    border-radius: 50%;
-    height: 10rem;
-    width: 9.2rem;
-    transform: rotate(-25deg);
+    border-radius: 5%;
+    height: 40rem;
+    width: 40rem;
     margin: 2rem;
     position: relative;
 }
 
-.naming {
+@media screen and (max-width: 600px) {
+    #intro img{
+        display: none;
+    }
+    .introInfo{
+        font-size: 3.5em;
+    }
+}
+
+#introInfo {
+    padding-left: 2em;
+}
+
+.introNameSur {
     font-weight: var(--font-extrabold);
-    font-size: 2.2em;
+    font-size: 8em;
 }
 
 .introTitle {
     font-weight: var(--font-regular);
-    font-size: 1em;
+    font-size: 2.5em;
     font-style: italic;
 }
 
