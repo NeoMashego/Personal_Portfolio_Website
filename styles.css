@@ -32,18 +32,16 @@ body {
     position: relative;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
     background-color: var(--light-blue);
-    height: 60px;
+    height: 80px;
+    font-size: 25px;
 }
 
-#logo {
-    height: 60px;
-}
-
-#navToggle {
-    visibility: hidden;
-    background-color: var(--dark-blue);
-    list-style: none;
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: 15px;
+    }
 }
 
 #navLink {
