@@ -24,6 +24,7 @@ body {
     margin: 0;
     background-color: var(--cream);
     line-height: 1.6;
+    font-size: 25px;
 }
 
 /* Navigation Section */
@@ -112,13 +113,14 @@ body {
 
 #getToKnowMe h3 {
     margin: 0.2em;
-    font-size: 1.6em;
+    font-size: 1.8em;
 }
 
 .subtitle {
     font-style: italic;
     background-color: var(--light-blue);
     margin: 0.2em;
+    font-size: 1.2em;
 }
 
 .inform {
