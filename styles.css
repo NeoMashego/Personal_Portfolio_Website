@@ -10,6 +10,7 @@
     --light-blue: #a8dadc;
     --cream: #f1faee;
     --light-red: #e63946;
+    --dark-red: #bb1824;
 
     --font-semibold: 600;
     --font-extrabold: 800;
@@ -74,8 +75,8 @@ body {
 
 #intro img {
     border-radius: 5%;
-    height: 20rem;
-    width: 20rem;
+    height: 22rem;
+    width: 22rem;
     margin: 2em;
     position: relative;
 }
@@ -107,13 +108,14 @@ body {
 /* Get To Know Me Section */
 
 #getToKnowMe {
-    margin: 4rem;
+    margin: 4rem 3rem 1rem 3rem;
     text-align: center;
 }
 
 #getToKnowMe h3 {
-    margin: 0.2em;
+    margin: 0.6em;
     font-size: 1.8em;
+    color: var(--dark-blue);
 }
 
 .subtitle {
@@ -132,9 +134,11 @@ body {
 #whatCanDo {
     text-align: center;
     padding: 2em;
+    margin-bottom: 2em;
 }
 
 h2 {
+    color: var(--dark-blue);
     font-weight: var(--font-extrabold);
     font-size: 2em;
     padding: 1em 0 0.3em 0;
@@ -149,8 +153,8 @@ h2 {
 }
 
 .know:hover {
-    background-color: var(--blue);
-    box-shadow: 10px 10px var(--dark-blue);
+    background-color: var(--light-red);
+    box-shadow: 10px 10px var(--dark-red);
     border-radius: 8em;
     color: var(--cream);
 }
@@ -159,6 +163,7 @@ h2 {
 
 #projects {
     padding: 1em 3em;
+    background-color: var(--light-blue);
 }
 
 #projects, h2, p {
