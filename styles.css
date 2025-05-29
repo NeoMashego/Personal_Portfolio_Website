@@ -105,6 +105,21 @@ body {
     font-style: italic;
 }
 
+#resume {
+    margin-left: 35rem;
+    padding: 1.4em;
+    border-radius: 5rem;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#resume:hover {
+    background-color: var(--light-red);
+    box-shadow: 10px 10px var(--dark-red);
+    border-radius: 8em;
+    color: var(--cream);
+}
+
 /* Get To Know Me Section */
 
 #getToKnowMe {
