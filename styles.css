@@ -130,43 +130,29 @@ body {
 /* What Can Do Section */
 
 #whatCanDo {
-    background-image: url("./images/toDo-bg.jpg");
-    background-size: cover;
-    color: var(--cream);
     text-align: center;
-    padding: 4em;
+    padding: 2em;
 }
 
 h2 {
     font-weight: var(--font-extrabold);
     font-size: 2em;
-    padding: 1.3em 0 0.5em 0;
+    padding: 1em 0 0.3em 0;
 }
 
-#explain {
-    display: grid;
-    grid-gap: 2em;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: minmax(100px, auto);
+.know {
+    font-size: 0.8em;
+    margin-right: 1.2em;
+    padding: 1em;
+    border-radius: 30%;
+    background-color: transparent;
 }
 
-.desc {
-    margin: 0 3em 0 3em;
-}
-
-.desc h3 {
-    margin: 0;
-    font-size: 1.4em;
-}
-
-.desc p {
-    margin: 0;
-}
-
-.desc:hover {
+.know:hover {
     background-color: var(--blue);
     box-shadow: 10px 10px var(--dark-blue);
     border-radius: 8em;
+    color: var(--cream);
 }
 
 /* Projects Section */
