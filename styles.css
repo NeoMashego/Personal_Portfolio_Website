@@ -69,14 +69,14 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 2%;
+    padding: 2em;
 }
 
 #intro img {
     border-radius: 5%;
-    height: 40rem;
-    width: 40rem;
-    margin: 2rem;
+    height: 20rem;
+    width: 20rem;
+    margin: 2em;
     position: relative;
 }
 
@@ -95,7 +95,7 @@ body {
 
 .introNameSur {
     font-weight: var(--font-extrabold);
-    font-size: 8em;
+    font-size: 4em;
 }
 
 .introTitle {
